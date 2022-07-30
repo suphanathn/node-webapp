@@ -1,8 +1,8 @@
 //utility.js
 
 const request = require("request-promise");
-const EXTERNAL_API=""; // put url
-const accessToken="https://tools.ecpe.nu.ac.th/network/api/student/"; // put access token
+const EXTERNAL_API="https://tools.ecpe.nu.ac.th/network/api/student/"; // put url
+const accessToken="eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC90b29scy5lY3BlLm51LmFjLnRoXC9uZXR3b3JrXC9hcGlcL2xvZ2luIiwiaWF0IjoxNjU5MTUzMzAwLCJleHAiOjE2NTkxNTY5MDAsIm5iZiI6MTY1OTE1MzMwMCwianRpIjoiVW9xSmI5RVNOTmxOb1VueiIsInN1YiI6NjQsInBydiI6IjIzYmQ1Yzg5NDlmNjAwYWRiMzllNzAxYzQwMDg3MmRiN2E1OTc2ZjcifQ.8SYYIbFOGs-cv7ipgGWn-ne_5Mp9e1coc59nuyos9Wo"; // put access token
 const student = {
   name: '', // replace with your full name.
   age: 19, // put your age.
